@@ -90,7 +90,7 @@ def run_test_sum_square_roots():
     print('--------------------------------------------------')
     print('Testing the   sum_square_roots   function:')
     print('--------------------------------------------------')
-    
+
     # Test 1:
     expected = 1
     answer = sum_square_roots(1)
