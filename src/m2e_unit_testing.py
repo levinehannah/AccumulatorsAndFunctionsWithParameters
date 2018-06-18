@@ -4,9 +4,9 @@ This module helps you understand:
   -- the difference between PRINT and RETURN
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues.
+         and their colleagues. + Hannah Levine (LOL)
 """
-# ----------------------------------------------------------------------
+# ---------------------------------------------------------------------
 # Students: READ the comment FARTHER DOWN in this file.
 #   There is nothing for you to turn in from this file.
 #

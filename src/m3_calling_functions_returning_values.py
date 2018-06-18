@@ -74,19 +74,19 @@ def run_test_sum_of_digits():
 
     # Test 2:
     expected = 6
-    answer = sum_of_digits(321)
+    answer = sum_of_digits(123)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     #Test 3:
-    expected = 17
-    answer = sum_of_digits(5444)
+    expected = 16
+    answer = sum_of_digits(4444)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
     # Test 4:
-    expected = 29
-    answer = sum_of_digits(964721)
+    expected = 35
+    answer = sum_of_digits(98765)
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
@@ -153,20 +153,20 @@ def run_test_digits_in_cube():
     print('-----------------------------------------------------')
 
     # Test 2:
-    expected = 8
-    answer = digits_in_cube(5)
+    expected = 9
+    answer = digits_in_cube(6)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     #Test 3:
-    expected = 9
-    answer = digits_in_cube(3)
+    expected = 8
+    answer = digits_in_cube(5)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
     # Test 4:
-    expected = 8
-    answer = digits_in_cube(2)
+    expected = 10
+    answer = digits_in_cube(4)
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
@@ -209,8 +209,8 @@ def run_test_digits_in_power():
     print('--------------------------------------------------')
 
     # Test 2:
-    expected = 7
-    answer = digits_in_power(4,2)
+    expected = 10
+    answer = digits_in_power(4,3)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
@@ -221,8 +221,8 @@ def run_test_digits_in_power():
     print('       actual:  ', answer)
 
     # Test 4:
-    expected = 10
-    answer = digits_in_power(7,3)
+    expected = 13
+    answer = digits_in_power(7,2)
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
