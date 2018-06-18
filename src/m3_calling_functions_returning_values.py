@@ -245,9 +245,9 @@ def digits_in_power(n, k):
     #    the    sum_of_digits    function that is DEFINED ABOVE.
     ####################################################################
     # ------------------------------------------------------------------
-    base = n**k
-    fin = sum_of_digits(base)
-    return fin
+    basecase = n**k
+    finnn = sum_of_digits(basecase)
+    return finnn
 
 def run_test_fancy_sums_of_digits():
     """ Tests the   fancy_sums_of_digits   function. """
@@ -338,11 +338,11 @@ def fancy_sums_of_digits(n):
     # ------------------------------------------------------------------
     x = n**1000
     y = n**999
-    finx = sum_of_digits(x)
-    finy = sum_of_digits(y)
-    z = finx ** finy
-    finz = sum_of_digits(z)
-    return finz
+    finnnx = sum_of_digits(x)
+    finnny = sum_of_digits(y)
+    z = finnnx ** finnny
+    finnnz = sum_of_digits(z)
+    return finnnz
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # This unusual form is necessary for the special testing we provided.

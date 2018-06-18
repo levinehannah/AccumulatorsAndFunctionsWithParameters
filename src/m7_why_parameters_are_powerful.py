@@ -31,7 +31,7 @@ def run_test_draw_circles():
     """ Tests the   draw_circles   function. """
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch this function - it has no TODO in it.
+    #   Do NOT touch this function - it has no thing to change in it.
     # ------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -148,10 +148,10 @@ def run_test_even_better_draw_circles():
     print('--------------------------------------------------')
     print('Testing  draw_circles:  See graphics window')
     print('--------------------------------------------------')
-    even_better_draw_circles(3, 6, 'blue')
-    even_better_draw_circles(7, 4, 'green')
-    even_better_draw_circles(9, 2, 'red')
-    even_better_draw_circles(10, 8, 'orange')
+    even_better_draw_circles(3, 9, 'red')
+    even_better_draw_circles(7, 5, 'blue')
+    even_better_draw_circles(10, 3, 'pink')
+    even_better_draw_circles(11, 9, 'green')
 
 def even_better_draw_circles(n,i,p):
     window = rg.RoseWindow(400, 400)
