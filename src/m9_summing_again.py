@@ -35,14 +35,14 @@ def run_test_sum_powers():
     print('       actual:  ', answer)
 
     #Test 2:
-    expected = 10
-    answer = sum_powers(4,1)
+    expected = 3
+    answer = sum_powers(2,1)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     # Test 3:
-    expected = 3
-    answer = sum_powers(2,1)
+    expected = 6
+    answer = sum_powers(3,1)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
@@ -66,10 +66,10 @@ def sum_powers(n, p):
     #   No fair running the code of  sum_powers  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
-    tot = 0
+    toots = 0
     for k in range(n):
-        tot = tot + (k+1)**p
-    return tot
+        toots = toots + (k+1)**p
+    return toots
 
 def run_test_sum_powers_in_range():
     """ Tests the   sum_powers_in_range   function. """
@@ -86,20 +86,20 @@ def run_test_sum_powers_in_range():
     print('Testing the   sum_powers_in_range   function:')
     print('--------------------------------------------------')
     # Test 1:
-    expected = 9
-    answer = sum_powers_in_range(1,2,3)
+    expected = 17
+    answer = sum_powers_in_range(1,2,4)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
     #Test 2:
-    expected = 5
-    answer = sum_powers_in_range(2,3,1)
+    expected = 97
+    answer = sum_powers_in_range(2,3,4)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     # Test 3:
-    expected = 7
-    answer = sum_powers_in_range(3,4,1)
+    expected = 25
+    answer = sum_powers_in_range(3,4,2)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
@@ -124,10 +124,10 @@ def sum_powers_in_range(m, n, p):
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
 
-    tot = 0
+    totsmygoats = 0
     for k in range(m,(n+1)):
-        tot = tot + k**p
-    return tot
+        totsmygoats = totsmygoats + k**p
+    return totsmygoats
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
